@@ -22,16 +22,18 @@ Header and Footer Styles
 ********/
 #bootstrap-override h1 {
   font-family: 'Merriweather', serif;
-  font-size: 4em;
- 
+  font-size: 3em;
   margin-top: 150px;
+  
+  padding: 25px 0 0 10px;
+  text-align: left;
 }
 
 #bootstrap-override h2 {
   font-family: 'Merriweather', serif;
-  font-size: 2em;
+  font-size: 2.5em;
   margin: -5px 0 0;
-  margin-top: 3em;
+  padding-top: 1.5em;
   text-decoration: none;
   text-align: center;
 }
@@ -45,8 +47,7 @@ header {
   background: url('../img/wood-grain.png') center;
   background-repeat: no-repeat;
   background-position: center;
-  height: 350px;
-
+  height: 300px;
 }
 
 footer {
@@ -54,17 +55,31 @@ footer {
   font-size: 0.75em;
   text-align: center;
   padding-top: 50px;
-  background-repeat: no-repeat;
   color: #FFFFFF;
+  clear: both;
 }
 
 /********
  Nav Links
 ********/
 
-#header-btn {
-  margin: 175px 200px;
+#photo-btn {
+  margin-left: 43%;
+  margin-top: 3%;
+  padding: 1em 1em;
+  background:#008080;
+  color: white;
+  border-radius: 10%;
 }
+
+#contact-btn {
+  padding: 1em 1em;
+  background:#008080;
+  color: white;
+  margin-left: 60px;
+  border-radius: 10%;
+}
+
 
 /*
 nav {
@@ -110,50 +125,27 @@ p {
   width: 100%;
   text-align: center;
   background: url('../img/') center;
+  padding: 100px 120px;
+  margin: 0 100px;
 }
 
 .carousel-inner > .item > img {
-    margin: 0 auto;
+   margin: 0 auto;
 }
 
 #carousel-example-generic {
   width: 750px;
-  position: relative;
-  margin: 0 400px 0 200px;
-
+  float: left;
+  
 }
 
-.carousel-image {
-  width: auto;
-  height: 400px;
-  max-height: 400px;
-}
+
 
 /**********
 Photo Galery Styles
 **********/
 
-#gallery {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-#gallery li {
-  float: left;
-  width: 45%;
-  margin: 2.5%;
-  background-color: #f5f5f5;
-  color: #bdc3c7;
-  box-shadow: 3px 3px 6px #000;
-}
-
-#gallery li a p {
-  margin: 0;
-  padding: 5%;
-  font-size: 0.75em;
-  color: #bdc3c7
-}
 
 
 
