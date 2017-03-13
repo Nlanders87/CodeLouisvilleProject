@@ -3,9 +3,7 @@ General Styles
 *************/
 
 #wrapper {
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 5%;
+  max-width: 100%;
 }
 
 
@@ -17,30 +15,35 @@ a {
   text-decoration: none;
 }
 
+
 /********
 Header and Footer Styles
 ********/
 #bootstrap-override h1 {
-  font-family: 'Merriweather', serif;
-  font-size: 3em;
-  margin-top: 150px;
-  
+  font-family: 'Fascinate Inline', serif;
+  font-size: 4em;
   padding: 25px 0 0 10px;
-  text-align: left;
+  text-align: center;
+  
 }
 
 #bootstrap-override h2 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Pacifico', cursive;
   font-size: 2.5em;
   margin: -5px 0 0;
   padding-top: 1.5em;
   text-decoration: none;
   text-align: center;
+  font-style: bold;
 }
 
 
-h3 {
+ .welcome h3 {
   text-align: center;
+  margin-bottom: 100px;
+  font-weight: bold;
+  font-size: 2em;
+  
 }
 
 header {
@@ -57,6 +60,13 @@ footer {
   padding-top: 50px;
   color: #FFFFFF;
   clear: both;
+  width: 100%;
+}
+
+footer p {
+  font-family: 'Fascinate Inline', serif;
+  color: #000;
+  text-align: left;
 }
 
 /********
@@ -67,17 +77,19 @@ footer {
   margin-left: 43%;
   margin-top: 3%;
   padding: 1em 1em;
-  background:#008080;
+  background:#2F4F4F;
   color: white;
   border-radius: 10%;
+  text-transform: uppercase;
 }
 
 #contact-btn {
   padding: 1em 1em;
-  background:#008080;
+  background:#2F4F4F;
   color: white;
   margin-left: 60px;
   border-radius: 10%;
+  text-transform: uppercase;
 }
 
 
@@ -125,10 +137,9 @@ p {
   width: 100%;
   text-align: center;
   background: url('../img/') center;
-  padding: 100px 120px;
-  margin: 0 100px;
+  padding: 50px 50px;
+  
 }
-
 .carousel-inner > .item > img {
    margin: 0 auto;
 }
@@ -136,20 +147,9 @@ p {
 #carousel-example-generic {
   width: 750px;
   float: left;
-  
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 
 
-/**********
-Photo Galery Styles
-**********/
-
-
-
-
-
-/************
-Media Queries
-************/
-@media only screen (min-width: 320px)
