@@ -10,7 +10,7 @@ General Styles
 
 
 #logo {
-  color: white;
+  color: #000;
 }
 
 a {
@@ -23,7 +23,7 @@ Header and Footer Styles
 #bootstrap-override h1 {
   font-family: 'Merriweather', serif;
   font-size: 4em;
-  text-align: center;
+ 
   margin-top: 150px;
 }
 
@@ -31,7 +31,7 @@ Header and Footer Styles
   font-family: 'Merriweather', serif;
   font-size: 2em;
   margin: -5px 0 0;
-  margin-top: 1em;
+  margin-top: 3em;
   text-decoration: none;
   text-align: center;
 }
@@ -42,15 +42,15 @@ h3 {
 }
 
 header {
-  background: url('../img/nature.jpg') center;
+  background: url('../img/wood-grain.png') center;
   background-repeat: no-repeat;
   background-position: center;
-  height: 425px;
+  height: 350px;
 
 }
 
 footer {
-  background: url() center;
+  background: url('../img/wood-grain.png') center;
   font-size: 0.75em;
   text-align: center;
   padding-top: 50px;
@@ -62,6 +62,11 @@ footer {
  Nav Links
 ********/
 
+#header-btn {
+  margin: 175px 200px;
+}
+
+/*
 nav {
   text-align: center;
   padding: 20px 0;
@@ -85,7 +90,7 @@ nav a {
   color: white;
   text-decoration: none;
 }
-
+*/
 
 /********
 Body Styles
@@ -104,7 +109,7 @@ p {
 .welcome {
   width: 100%;
   text-align: center;
-  background: url('../img/wood_background.jpg') center;
+  background: url('../img/') center;
 }
 
 .carousel-inner > .item > img {
@@ -115,10 +120,6 @@ p {
   width: 750px;
   position: relative;
   margin: 0 400px 0 200px;
-
-}
-
-.carousel-inner {
 
 }
 
