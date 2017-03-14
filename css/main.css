@@ -82,7 +82,7 @@ footer p {
 
 
 /********
- Nav Links
+ Nav Buttons
 ********/
 
 #photo-btn {
@@ -146,6 +146,7 @@ p {
 
 
 
+
 /********
 Photo Gallery Styles
 *********/
@@ -161,3 +162,19 @@ img {
 .container {
   min-height: 1000px;
 }
+
+.gallery-text  p {
+ text-align: center;
+ display: inline-block;
+ margin: 100px 250px;
+ font-family: 'Ranga', serif;
+ border-top: 5px solid #2F4F4F;
+ font-size: 2.5em;
+}
+
+
+
+/********
+Contact Page Styles
+********/
+
