@@ -16,6 +16,12 @@ a {
 }
 
 
+
+
+
+
+
+
 /********
 Header and Footer Styles
 ********/
@@ -69,12 +75,18 @@ footer p {
   text-align: left;
 }
 
+
+
+
+
+
+
 /********
  Nav Links
 ********/
 
 #photo-btn {
-  margin-left: 43%;
+  margin-left: 40%;
   margin-top: 3%;
   padding: 1em 1em;
   background:#2F4F4F;
@@ -93,31 +105,9 @@ footer p {
 }
 
 
-/*
-nav {
-  text-align: center;
-  padding: 20px 0;
-  margin: 50px 0 0;
-  font-size: 18px;
-}
 
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
 
-nav li {
-  display: inline-block;
-}
 
-nav a {
-  font-weight: 900;
-  padding: 15px 5px;
-  color: white;
-  text-decoration: none;
-}
-*/
 
 /********
 Body Styles
@@ -152,8 +142,22 @@ p {
 }
 
 
+
+
+
+
 /********
 Photo Gallery Styles
 *********/
 
+img {
+  image-orientation: from-image;
+}
 
+.imgWrapper {
+  margin-top: 100px;
+}
+
+.container {
+  min-height: 1000px;
+}
