@@ -4,18 +4,88 @@
       <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
         <title>E.M.M.A Woodshop</title>
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="css/jquery.bsPhotoGallery.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Pacifico" rel="stylesheet">
         <meta name="description" content="E.M.M.A Woodshop website" />
         <meta name="author" content="Nathan Landers" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
-    <body>
-     <header>
+    <script
+			  src="https://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous">
+    </script>
+    <script src="jquery.bsPhotoGallery.js"></script>
+    <script>
+         $(document).ready(function(){
+         $('ul.first').bsPhotoGallery({
+         "classes" : "col-lg-2 col-md-4 col-sm-3 col-xs-4 col-xxs-12",
+         "hasModal" : true
+     });
+    });
+    </script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"></script>
+    <body id="bootstrap-override">
+      <header>
           <a href="index.html" id="logo">
-              <h1 style="margin-top: 0px;">E.M.M.A Woodshop</h1>          
+              <h1 style="margin-top: 0px;">E.M.M.A WOODSHOP</h1>          
           </a>
-            <h2>"Earth Materials Made Attractive"</h2>
-            <input id="contact-btn" type=button onClick="location.href='contact.html'" value="Contact" />
+            <h2>"Earth Materials Made Attractive"</h2> 
+            <input id="photo-btn" type=button onClick="location.href='photo-gallery.html'" value="Photo Gallery" />
+            <input id="contact-btn" type=button onClick="location.href='contact.html'" value="Contact" />  
       </header>
+      <div class="container">
+        <ul class="first">
+            <li>
+              <img src="img/bookshelf.JPG" alt ="Handmade Standing Bookshelf">
+              <p class="text">Standing Bookshelf</p>
+            </li>
+            <li>
+              <img src="img/coffee-table.JPG" alt ="Handmade Coffee Table">
+              <p class="text">Coffee Table</p>
+            </li>
+            <li>
+              <img src="img/hanging-shelf.JPG" alt ="Handmade Hanging Shelf">
+              <p class="text">Hanging Shelf</p>
+            </li>
+            
+            <li>
+              <img src="img/cutting-board.JPG" alt ="Handmade Cutting Board">
+              <p class="text">Cutting Board</p>
+            </li>
+            <li>
+              <img src="img/organizer.JPG" alt ="Handmade Hanging Organizer">
+              <p class="text">Hanging Organizer</p>
+            </li>
+            <li>
+              <img src="img/guitar.JPG" alt ="Handmade Arm for storing guitar">
+              <p class="text">Hanging Arm for Storing Guitar</p>
+            </li>
+            <li>
+              <img src="img/Adirondack.JPG" alt ="Handmade Adirondack Chair">
+              <p class="text">Adirondack Chair</p>
+            </li>
+            <li>
+              <img src="img/sand-table.JPG" alt ="Handmade Sandbox Picnic Table">
+              <p class="text">Sandbox Picnic Table</p>
+            </li>
+            <li>
+              <img src="img/compost.JPG" alt ="Handmade Compost Box">
+              <p class="text">Compost Box</p>
+            </li>
+      </ul>
+      </div>
 
       <footer>
         <p style="margin-bottom: 0px;">&copy; 2016 Nathan Landers.</p>
