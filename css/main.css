@@ -18,10 +18,6 @@ a {
 
 
 
-
-
-
-
 /********
 Header and Footer Styles
 ********/
@@ -63,6 +59,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
+  display: flex;
 }
 
 footer {
@@ -88,31 +85,22 @@ footer p {
 
 
 /********
- Nav Buttons
+ Nav Styles
 ********/
 
-#photo-btn {
-  margin-left: 40%;
-  margin-top: 3%;
-  padding: 1em 1em;
-  background:#2F4F4F;
-  color: white;
-  border-radius: 10%;
-  text-transform: uppercase;
+nav {
+  margin: 60px 750px;
+  font-size: 1.4em;
 }
 
-#contact-btn {
-  padding: 1em 1em;
-  background:#2F4F4F;
-  color: white;
-  margin-left: 60px;
-  border-radius: 10%;
-  text-transform: uppercase;
+.nav-pills > li.active > a {
+  background-color: #2f4f4f !important;
 }
 
-
-
-
+a {
+  color: #000 !important;
+  font-family: 'Fascinate Inline', serif;
+}
 
 
 /********
@@ -142,13 +130,6 @@ body {
   float: left;
   margin: 50px 0 100px 200px;
 }
-
-.carousel-inner {
-
-}
-
-
-
 
 
 /********

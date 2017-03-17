@@ -27,21 +27,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"></script>
     <body id="bootstrap-override">
+      <!-- Main Header -->
       <header>
           <a href="index.html" id="logo">
             <h1 style="margin-top: 0px;">E.M.M.A WOODSHOP</h1>          
           </a>
             <h2>"Earth Materials Made Attractive"</h2> 
-            <input id="photo-btn" type=button onClick="location.href='photo-gallery.html'" value="Photo Gallery" />
-            <input id="contact-btn" type=button onClick="location.href='contact.html'" value="Contact" />  
+            <nav>
+             <ul class="nav nav-pills">
+              <li role="presentation"><a href="index.html">Home</a></li>
+              <li role="presentation"><a href="photo-gallery.html">Photo Gallery</a></li>
+              <li role="presentation" class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
       </header>
        <div class="contact-info">
         <p>If you have any questions, comments or you like something you see please feel free to fill out the form on this page.</p>
+        <!-- Contact Form -->
        </div>
-         <form action="contact.html" method="post">
-          
+         <form action="contact.html" method="post">     
           <h1>Contact Me</h1>
-
         <fieldset>
             <label for="name">Name:</label>
             <input type="text" id="name" name="user_name">
@@ -52,11 +57,8 @@
             <label for="inquiries">Comments, Questions, Inquiries:</abel>
             <textarea id="inquiry" id="user-inquiries"></textarea>
         </fieldset>
-
         <button class="contact-form" type="submit">Submit</button>
-
       </form>
-
      <footer>
         <p style="margin-bottom: 0px;">&copy; 2016 Nathan Landers.</p>
     </footer>

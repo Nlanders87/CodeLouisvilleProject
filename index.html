@@ -36,14 +36,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"></script>
     <body id="bootstrap-override">
+      <!-- Main Header -->
       <header>
           <a href="index.html" id="logo">
               <h1 style="margin-top: 0px;">E.M.M.A WOODSHOP</h1>          
           </a>
             <h2>"Earth Materials Made Attractive"</h2> 
-            <input id="photo-btn" type=button onClick="location.href='photo-gallery.html'" value="Photo Gallery" />
-            <input id="contact-btn" type=button onClick="location.href='contact.html'" value="Contact" />
-            
+         <nav>
+             <ul class="nav nav-pills">
+              <li role="presentation" class="active"><a href="index.html">Home</a></li>
+              <li role="presentation"><a href="photo-gallery.html">Photo Gallery</a></li>
+              <li role="presentation"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>         
       </header>
       <div id="wrapper">
           <!--Carousel -->
@@ -86,12 +91,7 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-
-
-
-
-
-
+        <!-- Welcome Text -->
         <div class="welcome">
           <section>
             <h3>Welcome</h3>
@@ -108,9 +108,7 @@
       </div>
         </div>
         <footer>
-
         <p style="margin-bottom: 0px;">&copy; 2016 Nathan Landers.</p>
-      </footer>
-      
+      </footer> 
     </body>
 </html>
