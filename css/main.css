@@ -48,7 +48,14 @@ Header and Footer Styles
   margin-bottom: 100px;
   font-weight: bold;
   font-size: 2em;
-  
+  margin: 0;
+  width: 700px;
+  border-bottom: 5px solid #2F4F4F;
+  float: right;
+}
+
+.welcome p {
+  margin-top: 50px;
 }
 
 header {
@@ -117,18 +124,14 @@ body {
   width: 100%;
 }
 
-p {
-  margin-top: 30px;
-  font-size: 18px;
-}
 
 .welcome {
-  width: 100%;
   text-align: center;
-  background: url('../img/') center;
   padding: 50px 50px;
   font-family: 'Ranga', serif;
-  
+  font-size: 2.5em;
+  float: right;
+  margin: 100px 100px;
 }
 
 
@@ -137,8 +140,12 @@ p {
   height: auto;
   overflow: hidden;
   float: left;
+  margin: 50px 0 100px 200px;
 }
 
+.carousel-inner {
+
+}
 
 
 
