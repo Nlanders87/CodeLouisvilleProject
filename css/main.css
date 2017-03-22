@@ -20,6 +20,7 @@ img {
 
 
 
+
 /********
 Header and Footer Styles
 ********/
@@ -64,9 +65,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 300px;
-  display: flex;
-  border-radius: 3%;
-  border-top: 8px #2f4f4f solid;
+  border-radius: 0 0 60px 60px;
+  
   border-bottom: 8px #2f4f4f solid;
 }
 
@@ -78,9 +78,9 @@ footer {
   color: #FFFFFF;
   clear: both;
   width: 100%;
-  border-radius: 3%;
+  border-radius: 30px 30px 0 0;
   border-top: 3px #2f4f4f solid;
-  border-bottom: 3px #2f4f4f solid;
+  
 }
 
 footer p {
@@ -88,7 +88,6 @@ footer p {
   color: #000;
   text-align: left;
 }
-
 
 
 
