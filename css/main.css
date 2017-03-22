@@ -3,9 +3,8 @@ General Styles
 *************/
 
 #wrapper {
-  max-width: 100%;
+  max-width: 2000px;
 }
-
 
 #logo {
   color: #000;
@@ -60,6 +59,7 @@ Header and Footer Styles
 }
 
 header {
+  max-width: 2000px;
   background: url('../img/wood-grain.png') center;
   background-repeat: no-repeat;
   background-position: center;
@@ -88,9 +88,6 @@ footer p {
   color: #000;
   text-align: left;
 }
-
-
-
 
 
 
@@ -164,7 +161,7 @@ Photo Gallery Styles
  font-size: 2.5em;
 }
 
- p {
+ .text {
   font-family: 'Ranga', serif;
   font-size: 2em;
 }

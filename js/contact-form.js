@@ -30,7 +30,3 @@ document.querySelector('form.contact-info').addEventListener('submit', function 
     console.log(inquiryInput.value);
 });
 
-function submitForm() {
-  $('form[name="name"]').submit();
-  $('input[type="text"], input').val('');
-}
