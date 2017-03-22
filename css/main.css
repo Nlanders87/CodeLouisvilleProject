@@ -15,6 +15,9 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
 
 
 
@@ -26,6 +29,7 @@ Header and Footer Styles
   font-size: 4em;
   padding: 25px 0 0 10px;
   text-align: center;
+  text-shadow: -3px 9px 8px;
 }
 
 #bootstrap-override h2 {
@@ -36,6 +40,7 @@ Header and Footer Styles
   text-decoration: none;
   text-align: center;
   font-style: bold;
+  text-shadow: -3px 9px 8px;
 }
 
 
@@ -60,6 +65,9 @@ header {
   background-position: center;
   height: 300px;
   display: flex;
+  border-radius: 3%;
+  border-top: 8px #2f4f4f solid;
+  border-bottom: 8px #2f4f4f solid;
 }
 
 footer {
@@ -70,6 +78,9 @@ footer {
   color: #FFFFFF;
   clear: both;
   width: 100%;
+  border-radius: 3%;
+  border-top: 3px #2f4f4f solid;
+  border-bottom: 3px #2f4f4f solid;
 }
 
 footer p {
@@ -128,6 +139,7 @@ body {
   overflow: hidden;
   float: left;
   margin: 50px 0 100px 200px;
+  border: 20px black solid;
 }
 
 
@@ -146,7 +158,7 @@ Photo Gallery Styles
 .gallery-text  p {
  text-align: center;
  display: inline-block;
- margin: 100px 250px;
+ margin: 150px;
  font-family: 'Ranga', serif;
  border-top: 5px solid #2F4F4F;
  font-size: 2.5em;
@@ -232,7 +244,6 @@ legend {
 label {
   display: block;
   margin-bottom: 8px;
-  font-family: 'Merriweather', serif;
 }
 
 .contact-info p {
