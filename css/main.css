@@ -2,13 +2,6 @@
 General Styles
 *************/
 
-#wrapper {
-  max-width: 1900px;
-}
-
-#logo {
-  color: #000;
-}
 
 a {
   text-decoration: none;
