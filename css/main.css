@@ -2,13 +2,10 @@
 General Styles
 *************/
 
-#wrapper {
-  max-width: 1900px;
+.wrapper {
+  max-width: 100%;
 }
 
-#logo {
-  color: #000;
-}
 
 a {
   text-decoration: none;
@@ -147,10 +144,6 @@ Photo Gallery Styles
 
 .imgWrapper {
   margin-top: 100px;
-}
-
-.container {
-  min-height: 1000px;
 }
 
 .gallery-text  p {
